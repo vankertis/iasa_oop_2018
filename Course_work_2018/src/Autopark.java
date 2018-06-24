@@ -35,14 +35,32 @@ public class Autopark {
 
             if (choice == 1) {
                 Regular_car veh = new Regular_car(year, name, color, price);
+                //Adding information about the number of passengers this vehicle can accomodate
+                System.out.println("How many passengers could this vehicle accommodate?");
+                int pass_amount = input.nextInt();
+                //Calls the method which is implemented by Passengers_to_accommodate interface and display a message about the number of passengers
+                // it can accommodate, based on information added by a user
+                veh.pass_num(pass_amount);
                 l.add(veh);
             }
             else if (choice == 2) {
                 Track_car veh = new Track_car(year, name, color, price);
+                //Adding information about the tones this vehicle can handle
+                System.out.println("How many tones can this track handle?");
+                int weight_amount = input.nextInt();
+                //Calls the method which is implemented by Move_weight interface and display a message about the tones
+                // it can handle, based on information added by a user
+                veh.weight(weight_amount);
                 l.add(veh);
             }
             else if (choice == 3) {
                 Bus veh = new Bus(year, name, color, price);
+                //Adding information about the number of passengers this vehicle can accomodate
+                System.out.println("How many passengers could this vehicle accommodate?");
+                int pass_amount = input.nextInt();
+                //Calls the method which is implemented by Passengers_to_accommodate interface and display a message about the number of passengers
+                // it can accommodate, based on information added by a user
+                veh.pass_num(pass_amount);
                 l.add(veh);
             }
             else if (choice == 4) {
