@@ -1,6 +1,6 @@
 //Class that describes a motobike
 
-public class Motobike extends AbstractVehicle implements Typology {
+public class Motobike extends AbstractVehicle implements Typology, Wheels {
 
 
         public Motobike(int year, String name, String color, int price) {
@@ -19,4 +19,9 @@ public class Motobike extends AbstractVehicle implements Typology {
         }
 
 
+        @Override
+        public void wheels_num() {
+
+            System.out.println("Motobike has 2 wheels");
+        }
 }

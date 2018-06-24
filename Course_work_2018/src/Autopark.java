@@ -65,6 +65,7 @@ public class Autopark {
             }
             else if (choice == 4) {
                 Motobike veh = new Motobike(year, name, color, price);
+                veh.wheels_num();
                 l.add(veh);
             }
             else {
