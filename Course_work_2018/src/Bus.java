@@ -9,14 +9,14 @@ public class Bus extends AbstractVehicle implements Passengers_to_accom,Typology
         //Shows a message with type of a vehicle
         @Override
         public void display_type() {
-            System.out.println("Type of this vehicle: Bus");
+            System.out.println("\nType of this vehicle: Bus");
         }
 
         //Shows a message with number of passengers the vehicle can accommodate
         @Override
         public void pass_num (int value) {
-            System.out.println("Can accommodate: " + value + " passengers");
-        };
+            System.out.println("Can accommodate: " + value + " passengers. In case it marshrutka in Kyiv it may accommodate: " + (value+30) + " passengers \n");
+};
 
         //"Drive" method that shows a message, which describes how a particular vehicle drives
         @Override

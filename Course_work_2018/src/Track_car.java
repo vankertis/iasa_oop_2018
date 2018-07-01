@@ -7,13 +7,13 @@ public class Track_car extends AbstractVehicle implements Move_weight,Typology {
     //Shows a message with type of a vehicle
     @Override
     public void display_type() {
-        System.out.println("Type of this vehicle: Track");
+        System.out.println("\nType of this vehicle: Track");
     }
 
     //"Weight" method that shows a message, which describes how much a track can handle
     @Override
     public void weight(int value) {
-        System.out.println("Can move: " + value + "tones");
+        System.out.println("Can move: " + value + "tones \n");
     }
 
     //"Drive" method that shows a message, which describes how a particular vehicle drives

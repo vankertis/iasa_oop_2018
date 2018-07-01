@@ -10,12 +10,12 @@ public class Motobike extends AbstractVehicle implements Typology, Wheels {
         //Shows a message with type of a vehicle
         @Override
         public void display_type() {
-            System.out.println("Type of this vehicle: Motobike");
+            System.out.println("\nType of this vehicle: Motobike");
         }
 
         //"Drive" method that shows a message, which describes how a particular vehicle drives
         public void drive () {
-            System.out.println("Drives fast, but very dangerous");
+            System.out.println("Drives fast, but very dangerous \n");
         }
 
 

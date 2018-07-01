@@ -8,13 +8,13 @@ public class Regular_car extends AbstractVehicle implements Passengers_to_accom,
     //Shows a message with type of a vehicle
     @Override
     public void display_type() {
-        System.out.println("Type of this vehicle: Regular car");
+        System.out.println("\nType of this vehicle: Regular car");
     }
 
     //Shows a message with number of passengers the vehicle can accommodate
     @Override
     public void pass_num (int value) {
-        System.out.println("Can accommodate: " + value + " pasengers");
+        System.out.println("Can accommodate: " + value + " pasengers \n");
     };
 
 
